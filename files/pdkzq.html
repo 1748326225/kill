@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>KILL售卡官网-派单卡专区</title>
+		<script src="../js/cookie2.js"></script>
+		<script src="../js/all.js"></script>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" id="styleSheet" href="../css/light.css">
+		<link rel="stylesheet" href="../css/all.css">
+		<script src="../js/fish(jq).js"></script>
+		<script src="../js/fish.js"></script>
+	</head>
+	<body>
+		<header>
+			<div onclick="cd()" class="kzl">〓</div>
+			<h2 id="bt">kill</h2>
+			<div class="mod"  onclick="toggleTheme()">◐</div>
+		</header>
+		<div id="c">
+			<div id="tc" onclick="cd2()">×</div>
+			<ul>
+				<!-- <section onclick="location.href='../files/dl.html'">登录/注册</section> -->
+				<section onclick="location.href='../files/gg.html'">本站公告</section>
+			</ul>
+			
+		</div>
+		
+		<h4 class="xbt z">横板模板</h4>
+		
+		<div class="zs container">
+			<script>
+				// 获取父容器元素
+				const container = document.querySelector('.container');
+				
+				// 创建 ul 元素
+				const ul = document.createElement('ul');
+				
+				// 循环创建 li 元素
+				for (let i = 1; i <= 5; i++) {
+				  // 创建 li 元素
+				  const li = document.createElement('li');
+				  
+				  // 创建 figure 元素
+				  const figure = document.createElement('figure');
+				  
+				  // 创建 img 元素
+				  const img = document.createElement('img');
+				  img.setAttribute('data-src', `../img/p/p${i}.jpg`);
+				  img.setAttribute('oncontextmenu', 'return false;');
+				  img.setAttribute('ondragstart', 'return false;');
+				  
+				  // 创建 section 元素
+				  const section = document.createElement('section');
+				  section.classList.add('load');
+				  
+				  // 将 img 和 section 添加到 figure 中
+				  figure.appendChild(img);
+				  figure.appendChild(section);
+				  
+				  // 创建 div 元素
+				  const div = document.createElement('div');
+				  
+				  // 创建 h5 元素
+				  const h5 = document.createElement('h5');
+				  h5.innerText = '商品详情';
+				  
+				  // 创建 p 元素
+				  const p1 = document.createElement('p');
+				  p1.innerHTML = `<span>原价：</span><span>${i+5}</span><span>元</span>`;
+				  
+				  const p2 = document.createElement('p');
+				  p2.innerHTML = `<span>拼团：</span><span>${Math.floor(Math.random() * 6 + 5)}</span><span>元</span>`;
+				  
+				  const p3 = document.createElement('p');
+				  p3.innerHTML = `<span>买断：</span><span>${i*5}</span><span>元</span>`;
+				  
+				  const p4 = document.createElement('p');
+				  p4.innerHTML = `<span>活动：</span><span>买断送模板笔刷</span>`;
+				  
+				  // 创建 button 元素
+				  const button = document.createElement('button');
+				  button.setAttribute('type', 'button');
+				  button.innerText = '咨询客服';
+				  
+				  // 将 h5, p1, p2, p3, p4, 和 button 添加到 div 中
+				  div.appendChild(h5);
+				  div.appendChild(p1);
+				  div.appendChild(p2);
+				  div.appendChild(p3);
+				  div.appendChild(p4);
+				  div.appendChild(button);
+				  
+				  // 将 figure 和 div 添加到 li 中
+				  li.appendChild(figure);
+				  li.appendChild(div);
+				  
+				  // 将 li 添加到 ul 中
+				  ul.appendChild(li);
+				}
+				
+				// 将 ul 添加到 container 中
+				container.appendChild(ul);
+
+			</script>
+		</div>
+		
+		
+		
+		<h4 class="xbt z">竖板模板</h4>
+		<div style="width: 340px; height: 100px; background-color: aqua; margin: auto; margin-top: 20px; border-radius: 10px; text-align: center; line-height: 100px; background-color: #8d83ff; font-weight: bold; color: #fff;">该板块暂没有分类</div>
+		
+		<!-- 图片懒加载 -->
+		<script src="../js/lan.js"></script>
+		<!-- 图片懒加载 -->
+		
+		<!-- 获取年份 -->
+		<footer class="footer">
+			<div id="jsi-flying-fish-container">
+				<div id="gd">
+					<p>
+						<span>已运行</span>
+						<span id="t" class="sj"></span>
+						<span>天</span>
+						<span id="s" class="sj"></span>
+						<span>小时</span>
+						<span id="f" class="sj"></span>
+						<span>分钟</span>
+						<span id="m" class="sj"></span>
+						<span>秒</span>
+					</p>
+							
+					<script async src="../js/times.js"></script>
+							
+					<p>
+					  <span id="busuanzi_container_site_pv">访问量<span id="busuanzi_value_site_pv" class="sj"></span>次</span>
+					  <span id="busuanzi_container_site_uv">访客<span id="busuanzi_value_site_uv" class="sj"></span>人次</span>
+					  <span id="busuanzi_container_page_pv">阅读量<span id="busuanzi_value_page_pv" class="sj"></span>次</span>
+					</p>
+							
+					<p>
+					  <span>版权所有 © 2022-</span>
+					  <span id="year" class="sj"></span>
+					  <span>|</span>
+					  <span>技术支持：</span>
+					  <span>微生之最</span>
+					</p>
+					<script src="../js/time.js"></script>
+				</div>
+			</div>
+		</footer>
+		
+		<ul class="kzsx">
+			<li class="sx k"></li>
+			<li class="top k">
+				<a href="#top"></a>
+			</li>
+			<li class="bottom k">
+				<a href="#bottom"></a>
+			</li>
+		</ul>
+		<script src="../js/scroll.js"></script>
+	</body>
+</html>
