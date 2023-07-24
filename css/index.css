@@ -1,0 +1,119 @@
+#lunbo-kj{
+	width: 340px;
+	height: 200px;
+	background-color: #fff;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 3px 2px;
+	font-weight: bold;
+}
+#lunbo{
+	width: 1020px;
+	height: 200px;
+	overflow: hidden;
+	-o-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+#lunbo img{
+	width: 340px;
+	height: 200px;
+	float: left;
+}
+#jdt{
+	margin: auto;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	width: 50px;
+	height: 13px;
+}
+#jdt section{
+	border-radius: 30px;
+	height: 13px;
+	width: 13px;
+	/* background-color: rgba(255, 255, 255, 0.3); */
+	-o-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+#jdt-li1{
+	float: left;
+}
+#jdt-li2{
+	float: left;
+	margin-left: 5px;
+}
+#jdt-li3{
+	float: right;
+}
+.fl{
+	width: 350px;
+	height: auto;
+	margin: auto;
+	margin-top:20px;
+	overflow: hidden;
+	font-weight: bold;
+}
+.fl ul{
+	width: 334px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	border-radius: 10px;
+	border: 3px solid #8d83ff;
+}
+.fl ul li{
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	border-radius: 5px;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display: -webkit-flex;
+	display:flex; 
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	background-image: url("../others/商品推广.png");
+	background-repeat: no-repeat;
+	background-size: 1em;
+	background-position-y: center;
+	background-position-x: 0.8em;
+	box-shadow: 0px 0px 3px 1px #d9d9d9;
+	float: left;
+	font-size: 14px;
+	color: #8d83ff;
+	-o-transition: all 0s ease-in-out;
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0s ease-in-out;
+}
+.fl ul li:active{
+	transform: scale(0.9);
+}
+.zq{
+	margin-left: 11.3333333333333333333333333px;
+	margin-top: 11.3333333333333333333333333px;
+}
+.zq2{
+	margin-bottom: 11.3333333333333333333333333px;
+}
+marquee{
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	width: 340px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 20px;
+	color: #8d83ff;
+	border-radius: 20px;
+	padding: 5px;
+}
+

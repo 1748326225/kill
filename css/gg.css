@@ -1,0 +1,77 @@
+.gg{
+	width: 334px;
+	height: auto;
+	border: 3px solid #8d83ff;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.gg li{
+	text-indent: 2em;
+	width: 90%;
+	margin: auto;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	border-bottom: 2px dotted #ddd9ff;
+	color: #8d83ff;
+	background-image: url("../others/商品推广.png");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	border-radius: 1px;
+}
+.gg button{
+	width: 80px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	bottom: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 55px;
+}
+.gg button:active{
+	transform: scale(0.9);
+}
+.buttton1{
+	background-image: linear-gradient(90deg,#8e89fb,#03b1ff);
+}
+.buttton2{
+	background-color: #1ed76d;
+}
+.gg li .s1{
+	animation-name: l1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes l1 {
+	0%{
+		color: #949494;
+	}
+	50%{
+		color: #41f6ff;
+	}
+	100%{
+		color: #949494;
+	}
+}
+.gg li .s2{
+	animation-name: l2;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+@keyframes l2 {
+	0%{
+		color: #949494;
+	}
+	50%{
+		color: #41f6ff;
+	}
+	100%{
+		color: #949494;
+	}
+}
